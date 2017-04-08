@@ -1,0 +1,1 @@
+Krushkal's algorithm: To find min cost spanning tree.
