@@ -1,1 +1,4 @@
 Krushkal's algorithm: To find min cost spanning tree.
+  Process: Start from the shortest edge and pick the next shortest edge from the remaining edges (might be discontinuous)
+  
+  
