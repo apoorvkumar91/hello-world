@@ -1,4 +1,8 @@
 Krushkal's algorithm: To find min cost spanning tree.
   Process: Start from the shortest edge and pick the next shortest edge from the remaining edges (might be discontinuous)
   
-  
+Problem statement: I have a set S in which each element belongs to some partition (or component).
+  I want to determine: given an element s, which component does it belong to? [Find operation]
+                     & merging 2 components [Union operation]
+                     
+                     
