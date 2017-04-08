@@ -5,4 +5,5 @@ Problem statement: I have a set S in which each element belongs to some partitio
   I want to determine: given an element s, which component does it belong to? [Find operation]
                      & merging 2 components [Union operation]
                      
-                     
+Krushkal's: Naive implementation - maintain an array of elements containing components
+
