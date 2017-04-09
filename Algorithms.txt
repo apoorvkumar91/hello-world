@@ -87,3 +87,14 @@ Heap sort: Heapify: O(n)
 	
 **************
 
+Week 5 module 6
+Counting Inversions
+
+Divide and Conquer: To find how close are the ranked lists [Ex. 1 2 3 4 5 vs 2 4 3 1 5] i.e. I ranked the movie A as 1st and my friend as 2nd
+	Use 'Sort and count' inversions on L & R.
+	Then, count inversions across L & R while merging: 'Merge and count' [If both L & R are sorted in ascending order, if one element in R needs to be selected
+	that implies all other remaining elements in L are bigger than R OR their are no elements left in L]
+	It takes O(n log(n)). Though total inversions can be n(n-1)/2, we are counting them efficiently w/o enumerating each one.
+	
+**************
+
