@@ -46,6 +46,16 @@ Find using Pointers:
 For Krushkal's algo:
 	Also keep an array to store size[j] of the tree starting at node 'j'
 
-***************************************
+**************
+Week 5 Module 3:
 
+Priority queue: have 2 basic operations:
+	1. delete max priority job
+	2. insert a new job
+	
+	By using linear structures: processing a sequence of n jobs takes O(n^2) time
+
+To get better time, maintain a special kind of binary tree called a 'heap'
+
+**************
 
