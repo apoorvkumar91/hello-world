@@ -76,3 +76,14 @@ Priority queues are implemented using heaps.
 
 **************
 
+Week 5 module 5:
+Heaps: Updating values, sorting
+
+In Dijkstra's algo, we can maintain a min-heap of distances. In this, we need to update distances continuously
+	Maintain 2 arrays: NodeToHeap & HeapToNode to keep track of which node is where in the heap & vice-versa.
+	
+Heap sort: Heapify: O(n)
+	Then, do delete max n times: O(n log(n)). Can sort in-place
+	
+**************
+
