@@ -98,3 +98,15 @@ Divide and Conquer: To find how close are the ranked lists [Ex. 1 2 3 4 5 vs 2 4
 	
 **************
 
+Week 5 module 6
+Closest pair of points:
+
+Brute force: try every pair of points - O(n^2)
+Better method: Divide the set of points (Px, Py) into (Qx, Qy) & (Rx, Ry) by drawing a vertical line in between
+	Find min distance in Q & R sets and use it to find closest distance b/w points across the separator within distance d from the separator.
+	
+	Time: Initial time to create x-sorted (Px, Py) is O(n log(n))
+	Overall T = O(n log(n))
+	
+**************
+
