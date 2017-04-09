@@ -7,3 +7,24 @@ Problem statement: I have a set S in which each element belongs to some partitio
                      
 Krushkal's: Naive implementation - maintain an array of elements containing components, Store the edges being added.
 
+In naive implementation --> Each Union operation takes O(n) times [n is number of elements].
+	So m Union operations take O(mn) time.
+	
+Better implementation of Krushkal's algo:
+	In addition to maintaining an array of elements containing components & storing selected edges, also store:
+		a. The elements in each component
+		b. Size of each component [because in some PL - this might take a lot of time]
+	
+In Union operation: store an array of elements containing components & also for each component - store which elements it contains
+	Which merging, update only those elements in array which are present in the component to be merged.
+	For each element s, size of component[s] at least doubles each time it is relabelled.
+	After a sequence of m Union() operations, at most 2m elements are touched & at most m elements have had their components updated.
+	Worst case: Size of component[s] grows as 1,2,4...,m in m Union operations. So, s is relabelled at most O(log(m)) times.
+	So, after m Union operations, at most m elements have had their components updated, each at most O(log(m)) times. So, overall O(m*log(m))
+  
+Cont.... Krushkal's algo: Initially sorting the edges will take O(m log(m)) time. m <= n^2. So, O(m log(n)).
+                Union operation will take O(n*log(n)) time. [n - elements, m - edges]
+                So, overall time complexity is O((m+n) log(n))
+
+***************************************
+
