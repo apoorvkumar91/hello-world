@@ -1,3 +1,5 @@
+Union-Find Data Structure:
+
 Krushkal's algorithm: To find min cost spanning tree.
   Process: Start from the shortest edge and pick the next shortest edge from the remaining edges (might be discontinuous)
   
@@ -26,5 +28,24 @@ Cont.... Krushkal's algo: Initially sorting the edges will take O(m log(m)) time
                 n Union operations will take amortized cost O(n*log(n)) time. [n - elements, m - edges]
                 So, overall time complexity is O((m+n) log(n))
 
+A pointer stores an address (So, a pointer always points to ...)
+
+**********
+
+Union using Pointers:
+	maintain an array of elements (named 'Node') containing address where that elements' parent is stored (i.e. each array value points to the value of the parent)
+	Except for the root node --> the array value points to the 'name' (or index) itself. [Looks incorrect]
+	
+	maintain an array of elements (named 'Node') containing address where that elements' parent's address is stored (i.e. each array value is a pointer to 
+	a pointer OR each array value points to the pointer of the parent). Except for the root node --> where the pointer points to itself.
+	
+Find using Pointers:
+	takes log(n) time for the first time. Then, we can directly point the array value to the value of root node. Then, it takes O(1) for each subsequent visit
+	to that node. This is called Path Compression (or Flattening the .
+	
+For Krushkal's algo:
+	Also keep an array to store size[j] of the tree starting at node 'j'
+
 ***************************************
+
 
