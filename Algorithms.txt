@@ -59,3 +59,20 @@ To get better time, maintain a special kind of binary tree called a 'heap'
 
 **************
 
+Week 5 module 4:
+Heaps:
+
+Should satisfy a local property: the parent should be greater than the 2 children
+Insert - takes time O(log n) - equal to size of heap. Same for deleting max element & rearranging the heap.
+
+Child of H[j] are @ H[2j+1], H[2j+2]
+Parent of H[j] are @ floor(H[(j-1)/2])
+
+Building a heap: Naive: Insert one element at a time & make sure it satisfies the heap property - O(n log(n))
+	Better way: First arrange all elements randomly in form of a heap - will not satisfy the property. Now start from bottom to satisfy heap property.
+		Takes O(n) time
+
+Priority queues are implemented using heaps.
+
+**************
+
