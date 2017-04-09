@@ -23,7 +23,7 @@ In Union operation: store an array of elements containing components & also for 
 	So, after m Union operations, at most m elements have had their components updated, each at most O(log(m)) times. So, overall O(m*log(m))
   
 Cont.... Krushkal's algo: Initially sorting the edges will take O(m log(m)) time. m <= n^2. So, O(m log(n)).
-                Union operation will take O(n*log(n)) time. [n - elements, m - edges]
+                n Union operations will take amortized cost O(n*log(n)) time. [n - elements, m - edges]
                 So, overall time complexity is O((m+n) log(n))
 
 ***************************************
