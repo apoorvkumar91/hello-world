@@ -31,7 +31,7 @@ Cont.... Krushkal's algo: Initially sorting the edges will take O(m log(m)) time
 A pointer stores an address (So, a pointer always points to ...)
 
 **********
-
+Week5 module 2:
 Union using Pointers:
 	maintain an array of elements (named 'Node') containing address where that elements' parent is stored (i.e. each array value points to the value of the parent)
 	Except for the root node --> the array value points to the 'name' (or index) itself. [Looks incorrect]
