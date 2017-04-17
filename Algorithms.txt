@@ -123,3 +123,10 @@ BST: For each node w/ value v, values in left subtree < v & right subtree > v. T
 	
 **************
 
+Week 6 module 2
+Balanced Search Trees:
+
+Positive slope: height of left > ht of right
+In case of unbalanced trees - we do rotations
+If the slope at a node 'x' is +2, and slope at TL is {0,+1} - rotate right@x
+
