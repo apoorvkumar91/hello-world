@@ -125,3 +125,11 @@ Positive slope: height of left > ht of right
 In case of unbalanced trees - we do rotations
 If the slope at a node 'x' is +2, and slope at TL is {0,+1} - rotate right@x
 
+**************
+Week 6 module 4
+Greedy algo: Minimizing Lateness:
+
+Ex. suppose we need to allocate n jobs to a resource and all jobs have time t(i) and deadline d(i). All jobs are to be done and we need to minimize lateness.
+	Choose the job with the earliest deadline.
+	
+**************
