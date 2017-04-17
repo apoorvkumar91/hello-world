@@ -75,7 +75,6 @@ Building a heap: Naive: Insert one element at a time & make sure it satisfies th
 Priority queues are implemented using heaps.
 
 **************
-
 Week 5 module 5:
 Heaps: Updating values, sorting
 
@@ -86,7 +85,6 @@ Heap sort: Heapify: O(n)
 	Then, do delete max n times: O(n log(n)). Can sort in-place
 	
 **************
-
 Week 5 module 6
 Counting Inversions
 
@@ -97,8 +95,7 @@ Divide and Conquer: To find how close are the ranked lists [Ex. 1 2 3 4 5 vs 2 4
 	It takes O(n log(n)). Though total inversions can be n(n-1)/2, we are counting them efficiently w/o enumerating each one.
 	
 **************
-
-Week 5 module 6
+Week 5 module 7
 Closest pair of points:
 
 Brute force: try every pair of points - O(n^2)
@@ -109,8 +106,7 @@ Better method: Divide the set of points (Px, Py) into (Qx, Qy) & (Rx, Ry) by dra
 	Overall T = O(n log(n))
 	
 **************
-
-Week 5 module 6
+Week 6 module 1
 Binary Search Trees:
 
 Why are they required?: Because heaps take O(n) time to find pred & succ of any given number. This can be reduced to O(log n) using BST
@@ -122,7 +118,6 @@ BST: For each node w/ value v, values in left subtree < v & right subtree > v. T
 	All operations (i.e. Insert, delete max, etc.) are O(log n)
 	
 **************
-
 Week 6 module 2
 Balanced Search Trees:
 
