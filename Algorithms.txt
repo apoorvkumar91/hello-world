@@ -133,3 +133,18 @@ Ex. suppose we need to allocate n jobs to a resource and all jobs have time t(i)
 	Choose the job with the earliest deadline.
 	
 **************
+Week 6 module 5
+Huffman codes:
+
+ABL - should be least for the optimal encoding
+ABL - Average Bits per Letter
+
+Leaves at max depth occur in pairs. These leaves have the lowest frequencies.
+No node will have one child, otherwise that child can be promoted.
+Huffman's algorithm - find a recursive solution
+
+Time complexity comes due to finding the minimum - use heaps to reduce time complexity to k*log k times
+
+It is a greedy algo.
+
+**************
