@@ -148,3 +148,18 @@ Time complexity comes due to finding the minimum - use heaps to reduce time comp
 It is a greedy algo.
 
 **************
+Week 7 module 1
+Introduction to Dynamic Programming:
+
+Insertion sort - has a subproblem of sorting a smaller list
+
+nC0 + nC1 + ... + nCn = 2^n [Can think about this as either selecting a particular n or not]
+[nCr + (n+1)Cr = (n+1)C(r+1)]
+
+Weighted interval scheduling:
+	Now choosing earliest finish time - not valid
+	Process: sort bookings in increasing order of starting time.
+	Inductive solution can give rise to same subproblem at different stages.
+	To avoid this repeated recomputation: use Memoization & Dynamic Programming
+	
+**************
