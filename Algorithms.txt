@@ -163,3 +163,17 @@ Weighted interval scheduling:
 	To avoid this repeated recomputation: use Memoization & Dynamic Programming
 	
 **************
+Week 7 module 2
+Memoization:
+
+Memoization - keep values stored in an array to avoid repeated computation.
+Fibonacci #'s: 0,1, sum of last 2 #'s
+	Recursion is used.
+	While calculating Fibonacci series using Memoization - Numbers are calculated on demand
+
+Dynamic Programming:
+	Dependencies should form a DAG (Ex. Fibonacci series)
+	We actually do this when we try to calculate by hand. No recursion.
+	Overhead cost of stacks (in memoization) is avoided.
+	
+**************
