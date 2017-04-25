@@ -188,3 +188,26 @@ DP is generally more useful, though not always. Ex. In grid if path is blocked, 
 	whereas memoization will calculate O(m+n)
 	
 **************
+Week 7 module 4
+Common subwords and Subsequences:
+
+Finding longest common substring in 2 words: Brute force O(mn^2), m > n
+By induction:
+Base case: LCW(i,j) = 0, if i ne j
+LCW(i,j) = 1 + LCW(i+1,j+1), if i = j [recursion]
+
+By induction (DP):
+	Start from the end of the 2 words & form a DAG
+	Both takes O(mn) [Time to fill up the table]
+	
+Longest common subsequence: Can drop some letters
+	Ex. bisect, secret : length 4 (s,e,c,t)
+	Useful in DNA (2 species are closer if their DNA has longer common subsequence)
+	1 way: using LCW method of creating a grid
+	
+	LCS(i,j): LCS(ai a(i+1)... am, bj .... bn)
+	
+	LCS(i,j) = max(LCS(i+1,j), LCS(i,j+1)), if i ne j [d/f from LCW]
+	Takes O(mn)
+	
+**************
