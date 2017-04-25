@@ -178,3 +178,13 @@ Dynamic Programming:
 	Overhead cost of stacks (in memoization) is avoided.
 	
 **************
+Week 7 module 3	
+Grid Paths:
+
+# of ways to go from (0,0) to (m,n) with only right & up moves: (m+n)Cn
+
+Calc. using induction by memoization or dynamic programming (i.e. solving dependencies)
+DP is generally more useful, though not always. Ex. In grid if path is blocked, dynamic programming will still calculate each path in O(mn),
+	whereas memoization will calculate O(m+n)
+	
+**************
