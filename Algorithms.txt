@@ -172,6 +172,7 @@ Fibonacci #'s: 0,1, sum of last 2 #'s
 	While calculating Fibonacci series using Memoization - Numbers are calculated on demand
 
 Dynamic Programming:
+	It is iterative (Memoization - recursive)
 	Dependencies should form a DAG (Ex. Fibonacci series)
 	We actually do this when we try to calculate by hand. No recursion.
 	Overhead cost of stacks (in memoization) is avoided.
