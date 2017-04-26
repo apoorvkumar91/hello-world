@@ -222,3 +222,11 @@ Inductive solution:
 Do by DP, Time complexity is O(mn). Can reduce space complexity to O(n) (m > n) by keeping only 2 rows and 2 columns
 
 **************
+Week 7 module 6
+Matrix Multiplication:
+
+If A = m*n, B = n*p. Cost of 1 entry = O(n). Cost of filling full matrix = O(n*mp), mp - Dim. of AB
+[1 operation of multiplication and addition combined is taken as 1 step]
+Actual complexity of filling the table  O(n^3)
+
+**************
