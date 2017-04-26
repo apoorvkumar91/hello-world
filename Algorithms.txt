@@ -210,4 +210,7 @@ Longest common subsequence: Can drop some letters
 	LCS(i,j) = max(LCS(i+1,j), LCS(i,j+1)), if i ne j [d/f from LCW]
 	Takes O(mn)
 	
+Ex. bcdef, abcfe [LCW: bc, LCS: bcf]
+Q. Why don't we have max condition in LCW, but not in LCS? In LCS, this condition doesn't add a 1 to LCS - In that way it is same in LCW and LCS. In LCS, this cond simply copies a number in a cell in table to left-top corner cell. In LCW, the table is defined in such a way that we don't need to copy numbers.
+	
 **************
