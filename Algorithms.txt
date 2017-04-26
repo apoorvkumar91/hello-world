@@ -214,3 +214,11 @@ Ex. bcdef, abcfe [LCW: bc, LCS: bcf]
 Q. Why don't we have max condition in LCW, but not in LCS? In LCS, this condition doesn't add a 1 to LCS - In that way it is same in LCW and LCS. In LCS, this cond simply copies a number in a cell in table to left-top corner cell. In LCW, the table is defined in such a way that we don't need to copy numbers.
 	
 **************
+Week 7 module 5
+Edit Distance:
+
+LCS is equivalent to edit distance w/o substituition.
+Inductive solution:
+Do by DP, Time complexity is O(mn). Can reduce space complexity to O(n) (m > n) by keeping only 2 rows and 2 columns
+
+**************
